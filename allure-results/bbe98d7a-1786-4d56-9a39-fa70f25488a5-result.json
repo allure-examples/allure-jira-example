@@ -1,0 +1,73 @@
+{
+  "uuid": "bbe98d7a-1786-4d56-9a39-fa70f25488a5",
+  "historyId": "d1f457b10f5c52f41d8cbf8a3dadd98",
+  "fullName": "my.company.tests.SearchTest.searchTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "my.company.tests"
+    },
+    {
+      "name": "testClass",
+      "value": "my.company.tests.SearchTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "searchTest"
+    },
+    {
+      "name": "suite",
+      "value": "my.company.tests.SearchTest"
+    },
+    {
+      "name": "host",
+      "value": "SOME-MBP.Dlink"
+    },
+    {
+      "name": "thread",
+      "value": "44623@SOME-MBP.Dlink.main(1)"
+    }
+  ],
+  "links": [
+    {
+      "name": "AE-1",
+      "url": "http://localhost:2990/jira/browse/AE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "searchTest",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1545578808563,
+  "stop": 1545578820820,
+  "steps": [
+    {
+      "name": "openMainPage",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1545578817619,
+      "stop": 1545578818838
+    },
+    {
+      "name": "search",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1545578818839,
+      "stop": 1545578820156,
+      "parameters": [
+        {
+          "name": "text",
+          "value": "Allure framework"
+        }
+      ]
+    },
+    {
+      "name": "Make screen shot of results page",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1545578820161,
+      "stop": 1545578820695
+    }
+  ],
+  "attachments": []
+}
